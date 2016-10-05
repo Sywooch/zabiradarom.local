@@ -2,7 +2,7 @@
 
 namespace tests\codeception\unit\models;
 
-use app\models\ContactForm;
+use app\modules\main\models\ContactForm;
 use Yii;
 use yii\codeception\TestCase;
 use Codeception\Specify;
@@ -27,8 +27,8 @@ class ContactFormTest extends TestCase
 
     public function testContact()
     {
-        /** @var ContactForm $model */
-        $model = $this->getMockBuilder('app\models\ContactForm')
+        /** @var \app\modules\main\models\ContactForm $model */
+        $model = $this->getMockBuilder('app\modules\main\models\ContactForm')
             ->setMethods(['validate'])
             ->getMock();
         $model->expects($this->once())->method('validate')->will($this->returnValue(true));

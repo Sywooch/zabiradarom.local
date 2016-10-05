@@ -2,13 +2,14 @@
 
 $config = [
     'id' => 'app',
+    'defaultRoute' => 'main/default/index',
     'components' => [
         'user' => [
-            'identityClass' => 'app\models\User',
+            'identityClass' => 'app\modules\user\models\User',
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [
-            'errorAction' => 'site/error',
+            'errorAction' => 'main/default/error',
         ],
         'request' => [
             'cookieValidationKey' => '',
