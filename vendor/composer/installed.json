@@ -1,38 +1,5 @@
 [
     {
-        "name": "bower-asset/jquery",
-        "version": "2.2.4",
-        "version_normalized": "2.2.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/jquery/jquery-dist.git",
-            "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/c0185ab7c75aab88762c5aae780b9d83b80eda72",
-            "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72",
-            "shasum": ""
-        },
-        "type": "bower-asset-library",
-        "extra": {
-            "bower-asset-main": "dist/jquery.js",
-            "bower-asset-ignore": [
-                "package.json"
-            ]
-        },
-        "installation-source": "dist",
-        "license": [
-            "MIT"
-        ],
-        "keywords": [
-            "browser",
-            "javascript",
-            "jquery",
-            "library"
-        ]
-    },
-    {
         "name": "bower-asset/yii2-pjax",
         "version": "v2.0.6",
         "version_normalized": "2.0.6.0",
@@ -2751,12 +2718,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/console.git",
-            "reference": "db85798814c1aecf5449bcbed2f74a68862ff6fa"
+            "reference": "e12930d96cc0c15fd1de61d14a037c707baa901f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/db85798814c1aecf5449bcbed2f74a68862ff6fa",
-            "reference": "db85798814c1aecf5449bcbed2f74a68862ff6fa",
+            "url": "https://api.github.com/repos/symfony/console/zipball/e12930d96cc0c15fd1de61d14a037c707baa901f",
+            "reference": "e12930d96cc0c15fd1de61d14a037c707baa901f",
             "shasum": ""
         },
         "require": {
@@ -2776,7 +2743,7 @@
             "symfony/filesystem": "",
             "symfony/process": ""
         },
-        "time": "2016-10-05 09:03:40",
+        "time": "2016-10-06 08:59:27",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3107,5 +3074,101 @@
             }
         ],
         "description": "BDD assertion library for PHPUnit"
+    },
+    {
+        "name": "bower-asset/html5shiv",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aFarkas/html5shiv.git",
+            "reference": "a3c7567c5f7055f9b76230bbbc79967d0b9f7003"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aFarkas/html5shiv/zipball/a3c7567c5f7055f9b76230bbbc79967d0b9f7003",
+            "reference": "a3c7567c5f7055f9b76230bbbc79967d0b9f7003",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "dist/html5shiv.js"
+            ],
+            "bower-asset-ignore": [
+                "**/.*",
+                "composer.json",
+                "test",
+                "build",
+                "src",
+                "build.xml"
+            ],
+            "branch-alias": {
+                "dev-master": "3.7.3-dev"
+            }
+        },
+        "installation-source": "source"
+    },
+    {
+        "name": "bower-asset/respond",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/scottjehl/Respond.git",
+            "reference": "1c8ce14b10cf636ed72a9e0ccffedb71143e2e69"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/scottjehl/Respond/zipball/1c8ce14b10cf636ed72a9e0ccffedb71143e2e69",
+            "reference": "1c8ce14b10cf636ed72a9e0ccffedb71143e2e69",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "dest/respond.src.js",
+            "bower-asset-ignore": [
+                "**/.*",
+                "test"
+            ],
+            "branch-alias": {
+                "dev-master": "1.4.2-dev"
+            }
+        },
+        "installation-source": "source",
+        "description": "Fast and lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)"
+    },
+    {
+        "name": "bower-asset/jquery",
+        "version": "1.12.4",
+        "version_normalized": "1.12.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jquery/jquery-dist.git",
+            "reference": "5e89585e0121e72ff47de177c5ef604f3089a53d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/5e89585e0121e72ff47de177c5ef604f3089a53d",
+            "reference": "5e89585e0121e72ff47de177c5ef604f3089a53d",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "dist/jquery.js",
+            "bower-asset-ignore": [
+                "package.json"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "keywords": [
+            "browser",
+            "javascript",
+            "jquery",
+            "library"
+        ]
     }
 ]

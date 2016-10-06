@@ -2,6 +2,7 @@
 
 $config = [
     'id' => 'app',
+    'language'=>'ru-RU',
     'defaultRoute' => 'main/default/index',
     'components' => [
         'user' => [
@@ -17,6 +18,7 @@ $config = [
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
         ],
+
     ],
 ];
 
