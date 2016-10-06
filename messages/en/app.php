@@ -4,6 +4,7 @@ return [
     'NAV_CONTACT' => 'Contact',
     'NAV_SIGNUP' => 'Signup',
     'NAV_LOGIN' => 'Login',
+    'NAV_PROFILE' => 'Profile',
     'NAV_LOGOUT' => 'Logout',
 
     'BUTTON_SEND' => 'Send',

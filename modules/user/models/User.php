@@ -3,6 +3,7 @@
 namespace app\modules\user\models;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 use yii\web\IdentityInterface;
 use yii\behaviors\TimestampBehavior;
 //use yii\web\IdentityInterface;
@@ -26,6 +27,22 @@ class User extends \yii\db\ActiveRecord implements IdentityInterface
     const STATUS_ACTIVE = 1;
     const STATUS_WAIT = 2;
 
+
+    const SCENARIO_PROFILE = 'profile';
+
+    public function scenarios()
+    {
+        // этот вариант простой, но лучше использовать второй
+//        return [
+//            self::SCENARIO_PROFILE => ['email'],
+//            self::SCENARIO_DEFAULT => ['username','email','status'],
+//        ];
+        return ArrayHelper::merge(parent::scenarios(),
+            [
+                self::SCENARIO_PROFILE => ['email'],
+            ]
+        );
+    }
 
     public function behaviors()
     {
