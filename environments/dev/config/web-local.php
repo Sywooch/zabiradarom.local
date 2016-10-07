@@ -1,9 +1,8 @@
 <?php
-
 return [
     'components' => [
         'request' => [
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'jshd3qjaxp',
         ],
         'assetManager' => [
             'linkAssets' => true,
